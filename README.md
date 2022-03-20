@@ -6,7 +6,7 @@
 ```bash
 # 로컬 터미널
 $ docker-compose up -d --build
-$ docker exec -it nginx_php8_laravel8
+$ docker exec -it nginx_php8_laravel8 bash
 # ------------------------------------------
 
 # 도커 컨테이너 쉘(shell)
