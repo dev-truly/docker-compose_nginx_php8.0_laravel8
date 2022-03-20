@@ -1,10 +1,8 @@
 ## docker-compose
-#### ubuntu:20.04
-#### nginx
-#### php8.0
-#### laravel8
+### * 셋팅 환경
+#### ubuntu:20.04, nginx, php8.0, laravel8
 
-## * 실행 순서  
+### * 실행 순서  
 ```bash
 # 로컬 터미널
 $ docker-compose up -d --build
