@@ -2,7 +2,7 @@
 ### * 셋팅 환경
 #### ubuntu:20.04, nginx, php8.0, laravel8
 
-### * 실행 순서  
+### * 기본 구성 정보  
 ```bash
 # service root path : /home/laravel8
 # work path : /home 
