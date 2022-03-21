@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    image: ubuntu:latest
+    image: ubuntu:20.04
     container_name: nginx_php8_laravel8
     build:
       context: .

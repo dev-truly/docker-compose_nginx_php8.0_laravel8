@@ -4,16 +4,9 @@
 
 ### * 실행 순서  
 ```bash
-# 로컬 터미널
-$ docker-compose up -d --build
-$ docker exec -it nginx_php8_laravel8 bash
+# service root path : /home/laravel8
+# work path : /home 
 # ------------------------------------------
-
-# 도커 컨테이너 쉘(shell)
-$ laravel new laravel8
-$ chown -R www-data laravel8
-$ service php8.0-fpm start
-$ service nginx start
 ```
 
 * [http://localhost:8080/index.php](http://localhost:8080/index.php) 접속
